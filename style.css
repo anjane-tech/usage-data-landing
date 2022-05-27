@@ -13,6 +13,14 @@ a{
     color: #222;
 }
 
+.blueh{
+    color: #4D77FF;
+}
+
+.purh{
+    color: #4400AA;
+}
+
 body{
     font-family: 'Spline Sans Mono', monospace;
     margin: 0px;
@@ -190,7 +198,7 @@ input{
     font-weight: 700;
     font-size: 28px;
     
-    text-align: center; 
+    text-align: left; 
 }
 
 .fr{
@@ -239,7 +247,7 @@ input{
     font-weight: 700;
     font-size: 28px;
     
-    text-align: center; 
+    text-align: left; 
 }
 
 .cr{
@@ -267,4 +275,31 @@ input{
     align-items: flex-start;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.dbtn{
+    background-color: #AAEEFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    
+    
+}
+
+.dbtn:hover{
+    background-color: #222;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    
+    
 }
