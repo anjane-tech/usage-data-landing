@@ -186,6 +186,7 @@ input{
     align-items: center;
     justify-content: center;
     width: 70%;
+    margin-bottom: 25px;
 }
 
 .fimg{
@@ -237,6 +238,8 @@ input{
     align-items: center;
     align-self: center;
     height: 50%;
+    display: flex;
+    align-content: space-around;
 }
 
 .ce{
@@ -269,14 +272,16 @@ input{
     
     /* padding-right: 20%; */
     overflow:hidden;
+    height: 100vh;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-end;
+    align-content: stretch;
 
 }
 
 .cimg{
     width: 400px;
-    position: absolute;
-    right: 0;
-    
 
 }
 
@@ -316,4 +321,10 @@ input{
     font-size: 18px;
     
     
+}
+
+.botnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
