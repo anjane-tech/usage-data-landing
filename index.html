@@ -4,6 +4,7 @@
             NAME : Data Usage Tool
         </title>
         <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style_mobile.css"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -39,7 +40,13 @@
             <p class="herotxt">
                 Steps so <span class="purh">simple</span> that you can use this tool in a sleepy state 💤
             </p>
-            <img src="steps_desk.png" class="sec2img" alt="">
+            
+            <picture>
+                <source media="(max-width: 600px)" srcset="mobsteps.png" >
+                <source media="(min-width: 599px)" srcset="steps_desk.png">
+                <img src="mobsteps.png" srcset="steps_desk.png 768w, mobsteps.png 0w" class="sec2img" alt="">
+            </picture>  
+
             <p class="hsubhead">
                 Just load the data and BAM!!! you will have the insights you are looking for in front of you just like that....
             </p>
@@ -105,7 +112,7 @@
                     </div>
                     <div class="cact">
                         <form action="get">
-                            <input type="text" name="email" id="" size="70">
+                            <input type="text" name="email" id="" size="50">
                         </form>
                         <a href="">
                             <div class="dbtn">
