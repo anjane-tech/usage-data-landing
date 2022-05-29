@@ -346,7 +346,7 @@ picture{
 }
 
 .hey{
-    width: 100%;
+    width: 120%;
 }
 
 .dbtn{
@@ -367,7 +367,7 @@ picture{
     justify-content: center;
     background-color: white;
     text-align: center;
-    max-width: 60%;
+    max-width: 100%;
     
 }
 
