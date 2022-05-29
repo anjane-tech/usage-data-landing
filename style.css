@@ -361,6 +361,7 @@ picture{
     padding-bottom: 15px;
     min-width: 50%;
     padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,6 +373,7 @@ picture{
 
 .dbtn:hover{
     border: solid 3px;
+    padding-right: 10px;
     /* margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 48px;
