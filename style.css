@@ -5,6 +5,7 @@ html{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
     overflow-x: hidden; 
 }
 
@@ -208,8 +209,11 @@ picture{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    min-width: 70%;
+    width: fit-content;
     margin-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .fimg{
@@ -238,7 +242,9 @@ picture{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    min-width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .sec4{
@@ -331,30 +337,42 @@ picture{
 }
 
 .dbtn{
-    background-color: #AAEEFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 48px;
-    padding-right: 48px;
+    border: solid 3px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 48px;
+    margin-right: 48px; */
     border-radius: 12px;
     font-weight: 500;
-    font-size: 18px;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
     
 }
 
 .dbtn:hover{
-    background-color: #222;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 48px;
-    padding-right: 48px;
+    border: solid 3px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 48px;
+    margin-right: 48px; */
     border-radius: 12px;
     font-weight: 500;
-    font-size: 18px;
-    
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* width: 350px; */
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAEEFF;
+    text-align: center;
 }
 
 .botnav{
@@ -393,6 +411,8 @@ picture{
     .fimg{
         width: 100%!important;
     }
+
+    
 
     
     .herotxt{
