@@ -428,7 +428,25 @@ picture{
         width: 100%!important;
     }
 
-    
+    .btn{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .btn:hover{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .dbtn{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .dbtn:hover{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 
     
     .herotxt{
